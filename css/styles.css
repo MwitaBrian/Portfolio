@@ -2,3 +2,18 @@
   width: 250px;
   height: auto;
 }
+span{
+  font-weight: 800;
+  
+}
+.name-heading{
+  font-weight: 800;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+.mt20{
+  margin-top: 20px;
+}
+.margin-none{
+  margin: 0px;
+}
