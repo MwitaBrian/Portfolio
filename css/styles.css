@@ -20,3 +20,13 @@
 .fs13{
   font-size: 13px;
 }
+.text-left{
+  text-align: left;
+}
+.container{
+  margin-top: 20px;
+  padding: 10px;
+}
+.interests-heading{
+  text-align: center;
+}
