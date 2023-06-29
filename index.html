@@ -5,71 +5,214 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-  <title>Mwita Brian Portfolio</title>
+  <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+  <title>Mwita Mosabi Portfolio</title>
 </head>
 <body>
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6 text-center">
-        <h2 class="name-heading my-name">MWITA BRIAN</h2>
-        <h3>Android Engineer</h3>
-        <img src="images/brian.jpg" alt="Picture of Mwita" class="img-size">
-        <h2 class="mt20 strong text-left">About Me:</h2>
-        <p class="margin-none">Hello, welcome to my portfolio. I am a passionate and self-driven softare 
-          developer, who equally understands the perks of collaboration with other 
-          developers. I am proficient in <span class="strong">HTML, CSS,Javascript and Kotlin</span>.</p>
-        <p>I am also equipped with great problem-solving skills and good at teamwork by leveraging distributed version control systems like Github to collaborate on team projects. You can find a link to my <strong>Resume</strong> <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vT3asf_I5cG2ECACWr6k4YXj_dbzZgqtSpBLeGN7YhEMQPmY82NoUS4Px6EmfZNpqa6r2WJBakW2cLb/pub">here</a>.</p>
-        <p>I first got into coding after being fascinated by the terminal interface on my 
-          friend's laptop, <em><a href="https://github.com/geeknat">Geek Nat</a></em>. I found it really interesting that you could give commands 
-          to a computer, run it and get the intended output. Thus began my coding journey that has 
-          seen me go through ups & downs to get to where I am now.</p>
-          
-          <div class="text-left">
-            <h3 class="text-left">Interests</h3>
-            <p class="margin-none"> 
-              I like the beach, playing video games and going on long drives. I also do enjoy sports as 
-              a way to unwind. Some of the games I watch are:
-              <ul>
-                <li>Football</li>
-                <li>F1 Motorsport Racing</li>
-                <li>Ultimate Fight Championship</li>
-              </ul>
-              I also love food. Here are some of my favourite foods:
-              <ol>
-                <li>Pilau</li>
-                <li>Spaghetti Bolognese</li>
-                <li>Chicken</li>
-                <li>Nyama Choma</li>
-              </ol>
-            </p>
-          </div>
-      </div>
-      <div class="col-md-6 text-left">
-        <h2 class="name-heading text-left">My Projects</h2>
-        <div>
-          <h4>Have It Catered</h4>
-          <p class="margin-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sed vitae. Officiis recusandae praesentium quae laborum consequatur velit nesciunt rerum ab earum a, numquam quod eligendi minus iste ducimus vitae.</p>
-          <small>HTML, CSS, Bootstrap</small><br>
-          <a href="" class="fs13">Click Here to See More</a>
-          <hr>
-        </div>
-        <div>
-          <h4>Recipe Blog</h4>
-          <p class="margin-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sed vitae. Officiis recusandae praesentium quae laborum consequatur velit nesciunt rerum ab earum a, numquam quod eligendi minus iste ducimus vitae.</p>
-          <small>Angular, NodeJs, Bootstrap</small><br>
-          <a href="" class="fs13">Click Here to See More</a>
-          <hr>
-        </div>
-        <div>
-          <h4>Random Password Generator</h4>
-          <p class="margin-none">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, sed vitae. Officiis recusandae praesentium quae laborum consequatur velit nesciunt rerum ab earum a, numquam quod eligendi minus iste ducimus vitae.</p>
-          <small>Python</small><br>
-          <a href="" class="fs13">Click Here to See More</a>
-          <hr>
-        </div>
-      </div>
-    </div> 
-  </div> 
+  <!-- START NAV -->
+  <nav id="navbar" class="nav">
+    <ul class="nav-list">
+      <li>
+        <a href="#welcome-section">About</a>
+      </li>
+      <li>
+        <a href="#projects">Work</a>
+      </li>
+      <li>
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <!-- END NAV -->
+
+  <!-- START WELCOME SECTION -->
+
+  <section id="welcome-section" class="welcome-section">
+    <h1>Hey I am Mwita Mosabi</h1>
+    <p>a software developer</p>
+  </section>
+
+  <!-- END WELCOME SECTION -->
+
+  <!-- START PROJECTS SECTION -->
+
+  <section id="projects" class="projects-section">
+    <h2 class="projects-section-header">These are some of my projects</h2>
+
+    <div class="projects-grid">
+      <a
+        href="https://codepen.io/freeCodeCamp/full/zNqgVx"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tribute Page
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/qRZeGZ"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Random Quote Machine
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/wgGVVX"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          JavaScript Calculator
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/mVEJag"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Map Data Across the Globe
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/wGqEga"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Wikipedia Viewer
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+      <a
+        href="https://codepen.io/freeCodeCamp/full/KzXQgy"
+        target="_blank"
+        class="project project-tile"
+      >
+        <img
+          class="project-image"
+          src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
+          alt="project"
+        />
+        <p class="project-title">
+          <span class="code">&lt;</span>
+          Tic Tac Toe Game
+          <span class="code">&#47;&gt;</span>
+        </p>
+      </a>
+    </div>
+
+    <a
+      href="https://codepen.io/FreeCodeCamp/"
+      class="btn btn-show-all"
+      target="_blank"
+      >Show all<i class="fas fa-chevron-right"></i
+    ></a>
+  </section>
+
+  <!-- END PROJECTS SECTION -->
+
+  <!-- START CONTACT SECTION -->
+
+  <section id="contact" class="contact-section">
+    <div class="contact-section-header">
+      <h2>Let's work together...</h2>
+      <p>How do you take your coffee?</p>
+    </div>
+    <div class="contact-links">
+      <a
+        href="https://www.facebook.com/MosabiBrian/"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-facebook-square"></i> Facebook</a
+      >
+      <a
+        id="profile-link"
+        href="https://github.com/MwitaBrian"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-github"></i> GitHub</a
+      >
+      <a
+        href="https://twitter.com/_brianmwita"
+        target="_blank"
+        class="btn contact-details"
+        ><i class="fab fa-twitter"></i> Twitter</a
+      >
+      <a href="https://mail.google.com/mail/u/2/#inbox?compose=CllgCJlLWdDDcbGDzKNghczpjzpZzVXcvsWXMWMVxBLGSRCFsdkxvjCRLXThzvhDNGmvmwNbWGq" class="btn contact-details"><i class="fas fa-at"></i> Send a mail</a
+      >
+      <a href="tel:07 5950 3323" class="btn contact-details"
+        ><i class="fas fa-mobile-alt"></i> Call me</a
+      >
+    </div>
+  </section>
+
+  <!-- END CONTACT SECTION -->
+
+  <!-- START FOOTER SECTION -->
+
+  <footer>
+    <p>
+      Created by Mosabi Technologies
+    </p>
+    <p>
+      &copy; 2023
+      <a href="#" target="_blank"
+        >Mosabi Technologies <i class="fab fa-free-code-camp"></i
+      ></a>
+    </p>
+  </footer>
+
+  <!-- END FOOTER SECTION -->
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
 </body>
 </html>
